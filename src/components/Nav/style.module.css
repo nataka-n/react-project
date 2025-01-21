@@ -1,0 +1,19 @@
+
+
+.container {
+  max-width: 500px;
+  display: flex;
+  gap: 15px;
+}
+
+.container a {
+  font-size: 18px;
+  color: var(--base-red);
+  font-family: Raleway, sans-serif;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}

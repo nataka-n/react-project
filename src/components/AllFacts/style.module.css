@@ -1,0 +1,18 @@
+.allFacts {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  width: 300px;
+}
+
+.allFacts h4 {
+  color: var(--base-red);
+  margin-bottom: 0.5rem;
+  position: relative;
+  font-size: 1.2rem;
+}
+
+.allFacts p {
+  line-height: 130%;
+}

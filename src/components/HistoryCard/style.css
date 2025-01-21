@@ -1,0 +1,10 @@
+.historyCard {
+    grid-gap: 2rem;
+    display: grid;
+    font-size: 1.2rem;
+    grid-template-columns: repeat(3, auto);
+    max-width: var(--max-width);
+    padding: 1rem 1rem 3rem;
+    text-align: center;
+
+}

@@ -1,0 +1,22 @@
+.allHistory {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 2rem;
+    box-shadow: 0 0 5px gray;
+    position: relative;
+}
+
+.allHistory h4 {
+  color: var(--base-red);
+  margin-bottom: 0.5rem;
+  position: relative;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.allHistory p {
+  line-height: 130%;
+  text-align: left;
+}

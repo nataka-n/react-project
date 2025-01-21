@@ -1,0 +1,25 @@
+* {
+  background-color: var(--dark-body-color);
+}
+
+.factCard {
+    grid-gap: 1rem;
+    display: grid;
+    font-size: 1.2rem;
+    grid-template-columns: repeat(4, auto);
+    max-width: var(--max-width);
+    padding: 1rem 1rem 3rem;
+    text-align: center;
+}
+
+.happy-bean {
+    position: relative;
+}
+
+.happy-bean {
+    margin: auto;
+    margin-top: -20%;
+    width: 150px;
+}
+
+

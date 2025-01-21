@@ -1,0 +1,34 @@
+#form-review {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  }
+
+form {
+  font-size: 18px;
+  color: var(--base-red);
+  font-family: Raleway, sans-serif;
+  background: #edeae6e6;
+  border-radius: 1rem;
+  justify-content: center;
+  box-shadow: 0 0 10px gray;
+  margin-top: 50px;
+  padding: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+
+}
+
+input, select {
+  border-radius: 0.3rem;
+  border: 1px solid rgb(192, 185, 185);
+  box-shadow: 0 0 10px rgb(206, 182, 182);;
+  width: 46rem;
+  height: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: var(--base-red);
+  font-family: Raleway, sans-serif;
+}
