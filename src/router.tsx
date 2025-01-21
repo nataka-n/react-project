@@ -10,12 +10,12 @@ import BeanPage from "./pages/Bean";
 import Layout from "./components/Layout";
 import Loader from "./components/Loader";
 import Review from "./pages/Review";
-import About from "./pages/About";
+
 
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "react-project",
     element: <Layout />,
     loader: Loader,
     children: [
