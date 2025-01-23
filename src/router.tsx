@@ -15,7 +15,7 @@ import Review from "./pages/Review";
 
 const router = createBrowserRouter([
   {
-    path: "react-project",
+    path: "/",
     element: <Layout />,
     loader: Loader,
     children: [
